@@ -55,22 +55,13 @@ a:hover
 
 .coverimage
 {
-	width: 100%;          /* Permette alla copertina di diventare grande */
-	max-width: 600px;     /* Imposta un limite massimo per non farla sgranare troppo */
-	margin: 2em 0;     /* Centra l'immagine e mette spazio sopra e sotto */
-	float: none;          /* Rimuove il galleggiamento (Risolve la sovrapposizione!) */
-	clear: both;          /* Forza il testo a iniziare tassativamente sotto l'immagine */
-	display: block;       /* Rende l'immagine un blocco autonomo */
-	text-align: left;   /* Centra l'immagine nel suo contenitore */
-}
-
-/* Questo assicura che l'immagine dentro il contenitore si adatti perfettamente */
-.coverimage img 
-{
-	width: 100%;
-	height: auto;
-	display: block;
-}
+	width: 12.6em;
+	margin-top: 2em;
+	margin-left: 1em;
+	float: left;
+	clear: left;
+	text-align: right;
+} 
 
 /* 
 Here we make invisible the one-pixel border that currently goes around
@@ -96,22 +87,6 @@ To change the appearance of specific elements, tweak
 	.bibliography for the release information
 
 */
-
-/* Forza la miniatura a rimanere piccola e a non espandersi */
-.miniatura-cover {
-    width: 180px !important;
-    max-width: 180px !important;
-    float: left;             /* Permette al testo del gioco di affiancarsi a destra */
-    margin-right: 20px;      /* Distanzia il testo dall'immagine */
-    margin-top: 5px;
-    clear: none;             /* Rimuove il blocco per far salire il testo */
-}
-
-.miniatura-cover img {
-    width: 180px !important;
-    height: 180px !important;
-    display: inline-block;
-}
 
 .introduction
 { 
