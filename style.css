@@ -55,6 +55,12 @@ a:hover
 
 .coverimage
 {
+	/*width: 12.6em;
+	margin-top: 2em;
+	margin-left: 1em;
+	float: left;
+	clear: left;
+	text-align: right;*/
 	width: 100%;          /* Permette alla copertina di diventare grande */
 	max-width: 600px;     /* Imposta un limite massimo per non farla sgranare troppo */
 	margin: 2em 0;     /* Centra l'immagine e mette spazio sopra e sotto */
